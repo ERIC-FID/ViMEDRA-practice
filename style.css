@@ -1,0 +1,396 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 12vh;
+    position: fixed;
+    background-color:#10093f ;
+    border-radius: none;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header img{
+    width: 8em;
+    margin-left: 3rem;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-color:#1B1158;
+    position:relative;
+    background: linear-gradient(45deg,#080522 , #1B1158 );
+}
+.hero div {
+    position: absolute;
+    max-width: 50%;
+    top: 35%;
+    left: 5rem;
+
+    
+    
+}
+.hero div h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    background: linear-gradient(45deg, #4158de 0%,#c850c0 46%, #ffcc70 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    
+
+}
+.hero h2,p{
+    color:white;
+    margin-top: 1rem;
+}
+.hero div h2{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero div p{
+    font-size: 1.2rem;
+    font-family:monospace;
+    color: whitesmoke;
+    line-height: 1.3em;
+    
+}
+.hero div span{
+    color: rgb(8, 8, 248);
+}
+.hero .robot{
+    max-width:39%;
+    right: 1rem;
+    bottom: 0.2em;
+    position: absolute;
+
+}
+.key {
+    max-width: 100%;
+    background-color: #fefefe;
+    box-sizing: border-box;
+    gap: 2rem;
+    padding: 2rem;
+}
+.key p{
+    color: black;
+
+}
+.key .main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.key .main .fr ul {
+    list-style: none;
+}
+.key .main .fr ul li img{
+    max-width: 100%;
+}
+.key .main .fr {
+    width: 23rem;
+    background-color: #f6f6f6;
+    box-shadow: 0 5px 5px #e1e1e1;
+    
+
+}
+.key .main .fr ul li p{
+    margin: 0;
+    font-size: 1em;
+}
+.key .main .fr ul{
+    display: flex;
+    gap: 2rem;
+    align-content: baseline;
+    align-items: stretch;
+    padding: 1rem;
+} 
+
+.key .tools{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 2rem;
+    color: black;
+
+
+}
+.key .main{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+.key .note{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+.note img {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.key .Matters{
+    margin-top: 8rem;
+    text-align: center;
+    color: black;
+}
+.note ul{
+    list-style: none;
+    padding: 2rem;
+}
+.note .note2{
+    width: 25rem;
+    margin-top: 1rem auto;
+    background-color: #10093f;
+    height: 10rem;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 10px rgb(27, 27, 73);
+    transition: 0.5s;
+}
+.note .note2 ul li p{
+    font-weight: bold;
+    color: white;
+}
+.note .note2:hover{
+    scale: 1.1;
+}
+.key .up{
+    text-align: center;
+    margin-top: 8rem;
+    color: black;
+}
+
+.key .coming{
+    width: 50%;
+}
+.key .coming .opp{
+    width: 10%;
+    border: 2px solid red;
+    height: 10vh;
+    color: red;
+}
+
+footer{
+ width: 100%;
+ background:linear-gradient(45deg,#080522 , #1B1158 ) ;
+ padding: 3rem;
+ margin-top: 5rem;
+ display: flex;
+ color: white;
+ gap: 2rem;
+}
+footer .first{
+    width: 100%;
+}
+footer .first .two{
+    margin-top: 2rem;
+}
+footer .first img{
+    width: 7rem;
+}
+footer .first div{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+footer .first div button{
+    padding: 1rem 3rem;
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+footer .first .qr{
+    color: #adb9fb;
+}
+footer .first .two{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+    background: linear-gradient(45deg, #4158de 0%,#c850c0 46%, #ffcc70 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.key .content{
+    width: 100%;
+    margin-top: 5rem;
+
+}
+.key .content .demo {
+    width: 15rem;
+    padding: 2rem 2rem;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-radius: 50px;
+    box-shadow: 0 0 10px #e1e1e1;
+
+
+}
+.key .content .demo:hover{
+    bottom: 5px;
+    position: relative;
+}
+.key .content .demo li p{
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 0.9em;
+}
+.key .content .demo ul {
+    list-style: none;
+    font-family:sans-serif;
+    
+}
+.key .content{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+.content .demo ul li img{
+    width: 100%;
+    border-radius: 50%;
+}
+@media screen and ( max-width: 1280px){
+    .hero .robot{
+    display: none;
+}
+.hero div{
+    max-width: 100%;
+    text-align: center;
+    left: 0;
+    top: 30%;
+
+}
+.hero div p{
+    font-size: 1.5rem;
+    padding: 0 5rem; 
+    
+}
+}   
+@media screen and (max-width:1011px) {
+ .hero div h1{
+    font-size: 2.7rem;  
+    
+}
+ .hero div h2{
+    font-size: 2.5rem;
+ }
+ .hero div p{
+    font-size: 1.2rem;
+ }
+ header img{
+    width: 7.5em;
+    margin-left: 2.5rem;
+}
+}
+@media screen and (max-width:726px){
+     .hero div h1{
+    font-size: 2.3rem;  
+    
+}
+ .hero div h2{
+    font-size: 2.2rem;
+ }
+ .hero div p{
+    font-size: 1.1rem;
+ }
+
+}
+@media screen and (max-width:685px){
+   .hero div h1{
+    font-size: 2.2rem;  
+    
+}
+ .hero div h2{
+    font-size: 2.1rem;
+ }
+ .hero div p{
+    font-size: 1rem;
+ }
+ header img{
+    width: 7.3em;
+    margin-left: 2.1rem;
+ 
+    
+}
+}
+@media screen and (max-width:606px){
+ .hero div h1{
+   font-size: 2.1rem;  
+    
+}
+ .hero div h2{
+    font-size: 2rem;
+ }
+ .hero div p{
+    font-size: 0.8rem;
+ }
+  header img{
+    width: 7em;
+    margin-left: 1.9rem;
+  
+
+}
+}
+@media screen and (max-width:1246px){
+    
+footer{
+ flex-direction: column;
+
+
+
+}
+}
+@media screen and (max-width:1246px){
+    footer .first div button{
+    padding: 0.7rem 2rem;
+}
+
+}
+@media screen and (max-width:787px){
+    footer .first div button{
+    padding: 1rem 1rem;
+    font-size: 0.5em;
+}
+
+}
+@media screen and (max-width:660px)  {
+footer .first div button{
+    padding: 1rem 2rem;
+    font-size: 0.7em;
+    
+}
+footer{
+ padding: 1.5rem;
+ 
+}
+.hero div {
+    width: 100%;
+}
+.hero div p{
+    font-size: 1.5em;
+    padding: 0;
+}
+}
+@media screen and (max-width:400px){
+    .hero div p{
+    font-size: 1.2em;
+    padding: 0;
+}
+
+}
